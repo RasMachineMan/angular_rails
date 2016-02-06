@@ -12,6 +12,5 @@
 //
 
 //= require jquery
-//= require bootstrap-sprockets
 //= require ./angular/index
 //= require ./app/main

@@ -1,2 +1,11 @@
-h3 User index template
+h3 Users template
+
+
+div ng-repeat="user in users"
+  a ui-sref="root.users.show({id: user.id})" {{user.name}}
+
+button
+  a ui-sref="root.users.new" add user +
+
+
 

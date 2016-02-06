@@ -3,11 +3,10 @@ html ng-app='AngularTesting'
   head
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
     base href="/"
-    title
-      | AngularTesting
-    = javascript_include_tag 'application'
+    title AngularTesting
 
   body
 
     == yield
+  = javascript_include_tag 'application'
 

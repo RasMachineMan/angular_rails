@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   namespace :api, defaults: { format: :json } do
-    resources :users, only: [:index]
+    resources :users, only: [:index, :show, :create]
   end
 
   # Catch all route. Request render hmtl template then angular is taking over
